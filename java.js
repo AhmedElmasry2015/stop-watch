@@ -6,13 +6,13 @@ var x;
 function go(){
 seconds+=1;
 document.getElementById('seconds').innerHTML=seconds;
-if(seconds>= 59){
+if(seconds>= 60){
 seconds=0;
 document.getElementById('seconds').innerHTML=0;
 minute+=1;
 document.getElementById('minute').innerHTML=minute;
 }
-if(minute >=59){
+if(minute >=60){
 	minute=0;
 	hour+=1;
 	document.getElementById('minute').innerHTML=0;
